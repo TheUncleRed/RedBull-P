@@ -186,6 +186,8 @@ client.on('messageCreate', async message => {
 
 
 let lastChannelToDelete = null; // تخزين القناة التي سيتم حذفها
+let lastChanknelToDelete = null; // تخزين القناة التي سيتم حذفها
+let lastChannelToDehlete = null; // تخزين القناة التي سيتم حذفها
 
 client.on("messageCreate", async (message) => {
     if (message.author.bot) return;
